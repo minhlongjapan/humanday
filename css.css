@@ -1,0 +1,85 @@
+.box-love{
+  background: url('https://img4.thuthuatphanmem.vn/uploads/2020/03/07/background-8-3-dep-nhat_011144941.jpg');
+  background-size: cover;
+  width: auto;
+  height: 900px;
+  position: relative;
+}
+.box{
+ position: absolute;
+  top: 40%;
+  left: 35%;
+
+}
+button:hover{
+  cursor:pointer;
+  opacity: 0.6;
+}
+span{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  text-align: center;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 40px;
+  color: rgb(184, 8, 8);
+  font-weight: bold;
+}
+
+#yes {
+  position: absolute;
+  height: 60px;
+  width: 275px;
+  border: none;
+  border-radius: 4px;
+  padding: 18px;
+  background: red;
+  color: #fff;
+  right: -20px;
+  font-weight: bold;
+  font-size: 19px;
+  
+}
+
+#no {
+  position: absolute;
+  height: 60px;
+  width: 275px;
+  border: none;
+  border-radius: 4px;
+  padding: 18px;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  left: 170px;
+  font-size: 19px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
+  }
+  .popup-content {
+  position: relative;
+  background-color: #FAFAFA;
+  padding: 15px;
+  margin: auto;
+  width: 800px;
+  height: 800px;
+  background: url('https://o.vdoc.vn/data/image/2021/03/05/anh-dong-8-3-2.gif');
+  background-size: cover;
+  }
+
+  .content {
+    font-size: 30px;
+    color: #fff;
+  }
+
