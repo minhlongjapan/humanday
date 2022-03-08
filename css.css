@@ -82,12 +82,3 @@ span{
     font-size: 30px;
     color: #fff;
   }
-/* medium screen */
-@media (min-width: 600px) {
-
-}
-
-/* large screen */
-@media (min-width: 800px) {
-
-}
